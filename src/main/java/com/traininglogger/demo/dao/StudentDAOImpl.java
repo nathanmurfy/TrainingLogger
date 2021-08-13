@@ -11,6 +11,7 @@ public class StudentDAOImpl implements StudentDAO{
 
     @Override
     public int insertStudent(Student student) {
-        return 0;
+        studentList.add(student);
+        return 1;
     }
 }
